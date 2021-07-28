@@ -28,6 +28,10 @@
     overflow: hidden;
 }
 
+.section__four__carosel{
+    background-color: black
+}
+
 
 
 
@@ -83,9 +87,12 @@
 
 .carosel__img--two{
     opacity: .7;
-    /* padding-bottom: 30px; */
     border: 3px solid white;
+}
 
+.carosel__img--four{
+    padding: 3px;
+    border: 3px solid black;
 }
 
 .carosel__img--one img{
@@ -97,6 +104,11 @@
     width: 50%;
     display: block;
     margin: 0 auto
+}
+
+.carosel__img--four img{
+    width: 100%;
+    border-radius: 20px
 }
 
 /* .carosel__img img{
@@ -133,6 +145,11 @@
     /* padding-bottom: 30px; */
     border-bottom: 3px solid #0072ce;
     opacity: 1;
+}
+
+.carosel__img--four:hover{
+    border: 3px solid #0072ce;
+    border-radius: 27px
 }
 
 
