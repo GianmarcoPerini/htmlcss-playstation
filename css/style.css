@@ -5,8 +5,12 @@
     font-family: Helvetica, sans-serif
 }
 
-.prs--btn{
+.prs__btn--round{
     border-radius: 20px;
+}
+
+.prs__btn--color{
+    background-color: #0072ce;
 }
 
 .prs--txt{
@@ -38,4 +42,35 @@
 
 .box{
     height: 100%;
+}
+
+.carosel__img:hover{
+    padding: 3px;
+    border: 3px solid #0072ce;
+    border-radius: 27px
+}
+.carosel__img{
+    padding: 3px;
+    border: 5px solid white
+}
+
+.carosel__img img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.txt__color--blue{
+    color: #0072ce;
+}
+
+.section__two{
+    margin-top: 90px
+}
+
+.txt--size{
+    font-size: 1.3em
+}
+
+.txt__color--grey{
+    color: gray
 }
