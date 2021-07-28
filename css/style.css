@@ -19,6 +19,15 @@
     margin-top: 90px
 }
 
+.section__three{
+    height: 100vh;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
 
 
 
@@ -74,7 +83,7 @@
 
 .carosel__img--two{
     opacity: .7;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     border: 3px solid white;
 
 }
@@ -121,7 +130,7 @@
 }
 
 .carosel__img--two:hover{
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     border-bottom: 3px solid #0072ce;
     opacity: 1;
 }
