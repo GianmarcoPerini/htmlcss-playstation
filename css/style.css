@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif
+}
+
+.prs--btn{
+    border-radius: 20px;
+}
+
+.prs--txt{
+    color: black !important;
+    font-size: 1.2em
+}
+
+.prs--txt > .fas{
+    color: #999999;
+}
+
+.pre__nav__logo{
+    width: 130px;
+}
+
+.pre__nav__logo img{
+    width: 100%;
 }
