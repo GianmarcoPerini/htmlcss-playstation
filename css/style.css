@@ -25,3 +25,17 @@
 .pre__nav__logo img{
     width: 100%;
 }
+
+.section__one{
+    height: calc(100vh - 116px);
+    background-color: red;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden
+}
+
+.box{
+    height: 100%;
+}
