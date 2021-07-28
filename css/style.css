@@ -5,6 +5,50 @@
     font-family: Helvetica, sans-serif
 }
 
+
+.section__one{
+    height: calc(100vh - 116px);
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.section__two{
+    margin-top: 90px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* MODIFYING CLASS */
+
+.txt__color--black{
+    color: black !important;
+    font-size: 1.2em
+}
+
+.txt__color--blue{
+    color: #0072ce;
+}
+
+.txt__size--prg{
+    font-size: 1.3em
+}
+
+.txt__color--grey{
+    color: gray
+}
+
 .prs__btn--round{
     border-radius: 20px;
 }
@@ -13,16 +57,44 @@
     background-color: #0072ce;
 }
 
-.prs--txt{
-    color: black !important;
-    font-size: 1.2em
+
+
+
+
+
+
+    /* IMG */
+
+.carosel__img{
+    padding: 3px;
+    border: 3px solid white
 }
 
-.prs--txt > .fas{
-    color: #999999;
+
+
+.carosel__img--two{
+    opacity: .7;
+    padding-bottom: 30px;
+    border: 3px solid white;
+
 }
 
-.pre__nav__logo{
+.carosel__img--one img{
+    width: 100%;
+    border-radius: 20px
+}
+
+.carosel__img--two img{
+    width: 50%;
+    display: block;
+    margin: 0 auto
+}
+
+/* .carosel__img img{
+    width: 100%;
+} */
+
+.pre__nav__logo__img{
     width: 130px;
 }
 
@@ -30,47 +102,36 @@
     width: 100%;
 }
 
-.section__one{
-    height: calc(100vh - 116px);
-    background-color: red;
-    background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden
-}
-
-.box{
-    height: 100%;
-}
-
-.carosel__img:hover{
-    padding: 3px;
-    border: 3px solid #0072ce;
-    border-radius: 27px
-}
-.carosel__img{
-    padding: 3px;
-    border: 5px solid white
-}
-
-.carosel__img img{
-    border-radius: 20px;
+.info__img img{
     width: 100%;
 }
 
-.txt__color--blue{
-    color: #0072ce;
+
+
+
+
+
+
+
+    /* HOVER */
+
+.carosel__img--one:hover{
+    border: 3px solid #0072ce;
+    border-radius: 27px
 }
 
-.section__two{
-    margin-top: 90px
+.carosel__img--two:hover{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #0072ce;
+    opacity: 1;
 }
 
-.txt--size{
-    font-size: 1.3em
-}
 
-.txt__color--grey{
-    color: gray
+
+
+    /* SPECIFICITY */
+
+.txt__color--black > .fas{
+    font-size: .8em;
+    color: #999999;
 }
