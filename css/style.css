@@ -9,33 +9,25 @@
     height: 100vh;
 }
 
-
-.section__one{
+.one{
     height: calc(100vh - 116px);
     background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
 }
 
-.section__two{
+.two{
     margin-top: 90px
 }
 
-.section__three{
+.three{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.section{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
 }
-
-.section__four__carosel{
-    background-color: black
-}
-
-
 
 
 
@@ -48,21 +40,13 @@
 
     /* MODIFYING CLASS */
 
-.txt__color--black{
-    color: black !important;
-    font-size: 1.2em
-}
-
 .txt__color--blue{
     color: #0072ce;
 }
 
-.txt__size--prg{
-    font-size: 1.3em
-}
 
 .txt__color--grey{
-    color: gray
+    color: rgb(134, 134, 134)
 }
 
 .prs__btn--round{
@@ -71,6 +55,14 @@
 
 .prs__btn--color{
     background-color: #0072ce;
+}
+
+.bg-gray{
+    background-color: #bebcbb;
+}
+
+.bg-gray--2{
+    background-color: #d9dadc;
 }
 
 
@@ -86,8 +78,6 @@
     border: 3px solid white
 }
 
-
-
 .carosel__img--two{
     opacity: .7;
     border: 3px solid white;
@@ -95,7 +85,6 @@
 
 .carosel__img--four{
     padding: 30px;
-    border: 3px solid black;
 }
 
 .carosel__img--one img{
@@ -106,7 +95,7 @@
 .carosel__img--two img{
     width: 50% !important;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .carosel__img--four img{
@@ -146,7 +135,6 @@
 }
 
 .carosel__img--two:hover{
-    /* padding-bottom: 30px; */
     border-bottom: 3px solid #0072ce;
     opacity: 1;
 }
@@ -154,14 +142,4 @@
 .carosel__img--four:hover img{
     opacity: 1;
     cursor: pointer;
-}
-
-
-
-
-    /* SPECIFICITY */
-
-.txt__color--black > .fas{
-    font-size: .8em;
-    color: #999999;
 }
