@@ -5,17 +5,9 @@
     font-family: Helvetica, sans-serif
 }
 
-.full-bg{
-    height: 100vh;
-}
-
 .one{
     height: calc(100vh - 116px);
     background-image: url("../img/jumbo-bg.png");
-}
-
-.two{
-    margin-top: 90px
 }
 
 .three{
@@ -60,22 +52,37 @@
     background-color: #bebcbb;
 }
 
-.bg-blue{
+.bg-dark-blue{
     background-color: #161c3b;
+}
+
+.bg-blue{
+    background-color: #00439c;
 }
 
 .bg-gray--2{
     background-color: #d9dadc;
 }
 
+.bg-full{
+    height: 100vh;
+}
+
 .opacity-1{
     opacity: .7;
 }
 
-/* .w-70{
-    width: 70%;
-} */
+.mb-6{
+    margin-bottom: 4em
+}
 
+.mb-7{
+    margin-bottom: 5em
+}
+
+.mb-8{
+    margin-bottom: 6em
+}
 
 
 
@@ -84,7 +91,7 @@
     /* IMG */
 
 
-.carosel__img--one{
+.carosel-one{
     border: 3px solid white;
     padding: 3px;
 } 
@@ -139,7 +146,7 @@
     opacity: 1;
 }
 
-.carosel__img--one:hover{
+.carosel-one:hover{
     border: 3px solid #0072ce;
     border-radius: 27px
 }
