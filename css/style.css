@@ -104,13 +104,11 @@
     padding: 30px;
 }
 
-
 .carosel-one img{
     border-radius: 20px;
 }
 
 .carosel__img--two img{
-    /* width: 50% !important; */
     display: block;
     margin: 0 auto;
 }
@@ -119,8 +117,6 @@
     border-radius: 20px;
     opacity: .7;
 }
-
-
 
 .pre__nav__logo__img{
     width: 130px;
@@ -154,9 +150,4 @@
 .carosel-two:hover{
     border-bottom: 3px solid #0072ce;
     opacity: 1;
-}
-
-.carosel__img--four:hover img{
-    opacity: 1;
-    cursor: pointer;
 }
