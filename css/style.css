@@ -21,6 +21,26 @@
     overflow: hidden;
 }
 
+.drop{
+    position: absolute;
+    top: 100%;
+    width: 550px;
+    background-color: white;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: all 200ms ease-in-out;
+    padding: 10px;
+}
+
+.circle{
+    font-size: 10px;
+}
+
+.list{
+    opacity: 0;
+    padding: 30px;
+    transition: all 500ms 500ms;
+}
 
 
 
@@ -165,29 +185,6 @@
     opacity: 1;
 }
 
-
-.drop{
-    position: absolute;
-    top: 100%;
-    width: 550px;
-    background-color: white;
-    transform: scale(1,0);
-    transform-origin: top;
-    transition: all 200ms ease-in-out;
-    padding: 10px;
-}
-
-.circle{
-    font-size: 10px;
-}
-
-.list{
-    opacity: 0;
-    padding: 30px;
-    transition: all 500ms 500ms;
-}
-
-
 li:hover .drop{
     transform: scale(1,1);
 }
@@ -196,4 +193,3 @@ li:hover .list{
     opacity: 1;
     transition: opacity 500ms 200ms
 }
-
