@@ -56,6 +56,10 @@
     background-color: #bebcbb;
 }
 
+.bg-black{
+    background-color: #000000;
+}
+
 .bg-dark-blue{
     background-color: #161c3b;
 }
@@ -97,7 +101,9 @@
 }
 
 
-
+/* .prs-btn{
+    background-color: aqua
+} */
 
 
     /* IMG */
@@ -106,14 +112,16 @@
 .carosel-one{
     border: 3px solid white;
     padding: 3px;
+    transition: all 100ms ease-in-out
 } 
 
 .carosel-two{
     border: 3px solid white;
+    transition: all 300ms ease-in-out;
 }
 
-.carosel__img--four{
-    padding: 30px;
+.carosel-three{
+    transition: all 200ms ease-in-out
 }
 
 .carosel-one img{
@@ -132,14 +140,6 @@
 
 .pre__nav__logo__img{
     width: 130px;
-}
-
-.pre__nav__logo img{
-    width: 100%;
-}
-
-.info__img img{
-    width: 100%;
 }
 
 
@@ -164,3 +164,36 @@
     border-bottom: 3px solid #0072ce;
     opacity: 1;
 }
+
+
+.drop{
+    position: absolute;
+    top: 100%;
+    width: 550px;
+    background-color: white;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: all 200ms ease-in-out;
+    padding: 10px;
+}
+
+.circle{
+    font-size: 10px;
+}
+
+.list{
+    opacity: 0;
+    padding: 30px;
+    transition: all 500ms 500ms;
+}
+
+
+li:hover .drop{
+    transform: scale(1,1);
+}
+
+li:hover .list{
+    opacity: 1;
+    transition: opacity 500ms 200ms
+}
+
