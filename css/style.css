@@ -22,14 +22,11 @@
 }
 
 .drop{
-    position: absolute;
-    top: 100%;
-    width: 550px;
+    width: 100%;
     background-color: white;
     transform: scale(1,0);
     transform-origin: top;
     transition: all 200ms ease-in-out;
-    padding: 10px;
 }
 
 .circle{
@@ -42,11 +39,16 @@
     transition: all 500ms 500ms;
 }
 
+.play-logo-footer{
+    width: 200px
+}
 
-
-
-
-
+.active{
+    transition: all 200ms
+}
+.active:hover{
+    box-shadow: 15px 15px 15px rgb(221, 221, 221);
+}
 
 
 
